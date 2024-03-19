@@ -174,8 +174,7 @@ b.light-color{ color: #444; }
 }
 
 .subscribe-form input[type="text"],
-.subscribe-form input[type="email"],
-.subscribe-form input[type="checkbox"] {
+.subscribe-form input[type="email"] {
     width: calc(100% - 5px); 
     padding: 10px;
     margin-bottom: 10px;
@@ -186,6 +185,26 @@ b.light-color{ color: #444; }
     display: block; 
 }
 
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input[type="checkbox"] {
+    margin-right: 5px; 
+}
+
+.checkbox-text {
+    font-size: 16px;
+    cursor: pointer;
+	text-decoration: underline;
+    
+}
+
+.privacy-line {
+    display: flex;
+    align-items: center;
+}
 .subscribe-form input[type="checkbox"] {
     margin-right: 10px; 
     vertical-align: middle; 
@@ -216,8 +235,7 @@ b.light-color{ color: #444; }
 /* Responsive adjustments */
 @media only screen and (max-width: 767px) {
     .subscribe-form input[type="text"],
-    .subscribe-form input[type="email"],
-    .subscribe-form input[type="checkbox"] {
-        width: 100%; /* Full width for smaller screens */
+    .subscribe-form input[type="email"]{
+        width: 100%; 
     }
 }

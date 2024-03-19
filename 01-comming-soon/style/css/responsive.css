@@ -12,6 +12,16 @@
 	
 }
 
+
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+    .checkbox-label {
+        font-size: 14px;
+    }
+    .checkbox-text {
+        font-size: 12px;
+    }
+}
 /* Screens Resolution : 992px
 -------------------------------------------------------------------------- */
 @media only screen and (max-width: 992px) {
