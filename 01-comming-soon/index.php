@@ -1,10 +1,7 @@
 <?php
 include 'config.php';
 
-$servername = "localhost";
-$username = "azrt_opl_legalai";
-$password = "Ksc83KwF.Q";
-$dbname = "azrt_opl_legalai";
+
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
